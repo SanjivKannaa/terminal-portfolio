@@ -14,36 +14,40 @@ const Welcome: React.FC = () => {
     <HeroContainer data-testid="welcome">
       <div className="info-section">
         <PreName>
-          {`        
-    _____       __     _   __      _            
-   / ___/____ _/ /_   / | / /___ _(_)___  ____ _
-   \\__ \\/ __ \`/ __/  /  |/ / __ \`/ / __  / __ \`/
-  ___/ / /_/ / /_   / /|  / /_/ / / / / / /_/ / 
- /____/\\__,_/\\___/ /_/ |_/\\__,_/_/_/ /_/\\__, /  
-                                       /____/   
+          {`
+
+   $$$$$\\    $$$$$$\\    $$\\   $$\\ 
+   \\__$$ |  $$  __$$\\   $$ | $$  |
+      $$ |  $$ /  \\__|  $$ |$$  / 
+      $$ |  \\$$$$$$\\    $$$$$  /  
+$$\\   $$ |   \\____$$\\   $$  $$|   
+$$ |  $$ |  $$\\   $$ |  $$ |\\$$\\  
+\\$$$$$$  |  \\$$$$$$  |  $$ | \\$$\\ 
+ \\______/    \\______/   \\__|  \\__|
+
           `}
         </PreName>
         <PreWrapper>
           <PreNameMobile>
             {`
-    ____     __          
-   / __/__ _/ /_         
-  _\\ \\/ _ \`/ __/         
- /___/\\_,_/\\__/          
-    _  __     _          
-   / |/ /__ _(_)__  ___ _
-  /    / _ \`/ / _ \\/ _ \`/
- /_/|_/\\_,_/_/_//_/\\_, / 
-                  /___/  
- 
-          `}
+
+$$$$$\\    $$$$$$\\    $$\\   $$\\ 
+\\__$$ |  $$  __$$\\   $$ | $$  |
+   $$ |  $$ /  \\__|  $$ |$$  / 
+   $$ |  \\$$$$$$\\    $$$$$  /  
+$$\\   $$ |   \\____$$\\   $$  $$|   
+$$ |  $$ |  $$\\   $$ |  $$ |\\$$\\  
+\\$$$$$$  |  \\$$$$$$  |  $$ | \\$$\\ 
+\\______/    \\______/   \\__|  \\__|
+
+       `}
           </PreNameMobile>
         </PreWrapper>
         <div>Welcome to my terminal portfolio. (Version 1.3.1)</div>
         <Seperator>----</Seperator>
         <div>
           This project's source code can be found in this project's{" "}
-          <Link href="https://github.com/satnaing/terminal-portfolio">
+          <Link href="https://github.com/sanjivkannaa/terminal-portfolio">
             GitHub repo
           </Link>
           .

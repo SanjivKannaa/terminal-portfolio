@@ -9,13 +9,14 @@ const Email: React.FC = () => {
   /* ===== get current command ===== */
   const currentCommand = _.split(history[0], " ");
 
-  if (rerender && currentCommand[0] === "email" && currentCommand.length <= 1) {
-    window.open("mailto:" + "contact@satnaing.dev", "_self");
-  }
+
+  const handleClick = () => {
+    window.open("mailto:jsanjiv2003@gmail.com", "_self");
+  };
 
   return (
     <Wrapper>
-      <span>contact@satnaing.dev</span>
+      <span onClick={handleClick}>jsanjiv2003@gmail.com</span>
     </Wrapper>
   );
 };

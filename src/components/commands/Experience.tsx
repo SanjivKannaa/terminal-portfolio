@@ -9,7 +9,7 @@ import {
   ProjectDesc,
   ProjectsIntro,
   ProjectTitle,
-} from "../styles/Projects.styled";
+} from "../styles/Experience.styled";
 import { termContext } from "../Terminal";
 import Usage from "../Usage";
 
@@ -39,8 +39,8 @@ const Projects: React.FC = () => {
   ) : (
     <div data-testid="projects">
       <ProjectsIntro>
-        “Talk is cheap. Show me the code”? I got you. <br />
-        Here are some of my projects you shouldn't misss
+      "Actions speak louder than words, right? Here's the proof.<br />
+      Check out some of my notable experiences that shaped my journey
       </ProjectsIntro>
       {projects.map(({ id, title, desc }) => (
         <ProjectContainer key={id}>
@@ -48,7 +48,7 @@ const Projects: React.FC = () => {
           <ProjectDesc>{desc}</ProjectDesc>
         </ProjectContainer>
       ))}
-      <Usage cmd="projects" marginY />
+      {/* <Usage cmd="projects" marginY /> */}
     </div>
   );
 };
@@ -56,33 +56,39 @@ const Projects: React.FC = () => {
 const projects = [
   {
     id: 1,
-    title: "Post-Quantum Network Scanner",
-    desc: "Network tool that captures network traffic, analyzes and displays information about the cryptographic algorithms used.",
-    url: "http://projets.magickite.tech/network-scanner",
+    title: "Internship under NTU Singapore, 2024",
+    desc: "Worked on a network scanner project on the topic of Post-Quantum Cryptography for a start-up under the incubation center of NTU singapore",
+    url: "",
   },
   {
     id: 2,
-    title: "ChaosBank",
-    desc: "A simple banking website, implemented with Chaos Tools",
-    url: "http://projets.magickite.tech/chaosbank",
+    title: "Spider R&D, NITT, 2021-2025",
+    desc: "I am part of a software research and development club of NITT. I have worked on several projects and have contributed on the domain of DevOps, Backend-development, hosting, etc",
+    url: "",
   },
   {
     id: 3,
-    title: "NoCaine",
-    desc: "Dark-Web monitoring Tool.",
-    url: "http://projets.magickite.tech/nocaine",
+    title: "SIH Hackathon, 2024",
+    desc: "My team, O(n!) won the First Prize on the problem statement of 'Data compression for Backbone system'.",
+    url: "",
   },
   {
     id: 4,
-    title: "Gas Leakage Detection system",
-    desc: "An automated Gas leakage detection system, embedded system project",
-    url: "http://projets.magickite.tech/embeddedproject",
+    title: "RACCAM Hackathon, 2024",
+    desc: "My team participated in the 'Rajasthan Police Cyber Crime Awareness Mission' Hackathon and won the 2nd prize on the domain of 'DarkWeb Monitoring'.",
+    url: "",
   },
   {
     id: 5,
-    title: "Spdier VPN",
-    desc: "A VPN service that is used to protect admin-panels, docs from the open internet.",
-    url: "http://projets.magickite.tech/spidervpn",
+    title: "Kavach Hackathon, 2023",
+    desc: "Kavach is a national level Cybersecurity Hackathon hosted by AICTE. My team was qualified for the 'Grand-Finale' of the Hackathon",
+    url: "",
+  },
+  {
+    id: 6,
+    title: "Cyber-Thon, 2023",
+    desc: "Cyber-Thon is a Hackathon hosted by Chandigarh Police department. My team was qualified for the 'Grand-Finale' of the Hackathon",
+    url: "",
   },
 ];
 
