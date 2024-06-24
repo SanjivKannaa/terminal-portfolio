@@ -58,31 +58,31 @@ const projects = [
     id: 1,
     title: "Post-Quantum Network Scanner",
     desc: "Network tool that captures network traffic, analyzes and displays information about the cryptographic algorithms used.",
-    url: "http://projets.magickite.tech/network-scanner",
+    url: "http://projects.magickite.tech/network-scanner",
   },
   {
     id: 2,
     title: "ChaosBank",
     desc: "A simple banking website, implemented with Chaos Tools",
-    url: "http://projets.magickite.tech/chaosbank",
+    url: "http://projects.magickite.tech/chaosbank",
   },
   {
     id: 3,
     title: "NoCaine",
     desc: "Dark-Web monitoring Tool.",
-    url: "http://projets.magickite.tech/nocaine",
+    url: "http://projects.magickite.tech/nocaine",
   },
   {
     id: 4,
     title: "Gas Leakage Detection system",
     desc: "An automated Gas leakage detection system, embedded system project",
-    url: "http://projets.magickite.tech/embeddedproject",
+    url: "http://projects.magickite.tech/embeddedproject",
   },
   {
     id: 5,
     title: "Spdier VPN",
     desc: "A VPN service that is used to protect admin-panels, docs from the open internet.",
-    url: "http://projets.magickite.tech/spidervpn",
+    url: "http://projects.magickite.tech/spidervpn",
   },
 ];
 
